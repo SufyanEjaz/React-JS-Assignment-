@@ -34,7 +34,7 @@ const Login = () => {
         localStorage.setItem("userID", isUserExist.id);
         setCookie("Auth", true, {
           path: "/",
-          expires: new Date(Date.now() + 36000),
+          expires: new Date(Date.now() + 540000),
         });
 
         SetAuth(true);

@@ -3,5 +3,5 @@ export const genericFunction = () => {
     localStorage.clear();
     console.log("remove cookies");
     window.location = "/sign-in";
-  }, 36000);
+  }, 540000);
 };
